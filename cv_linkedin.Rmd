@@ -1,0 +1,88 @@
+---
+name: Nombre completo
+position: Profesión
+phone: 0000000
+profilepic: "img.jpg"
+email: "correro@gmail.com"
+github: github
+linkedin: linkedin
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::twentyseconds
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+#4 POSIBILIDADES
+#moderncv (foto), awesomecv (foto), hyndman (sin foto), twentyseconds (foto)
+```
+
+# DATOS PERSONALES / SECCIÓN 1
+
+* Nombres y apellidos: -----
+* Nacionalidad: -----
+* Estado civil: -----
+* Cédula de Identidad: -----
+* Fecha de Nacimiento: -----
+* Lugar de Nacimiento: -----
+* Dirección: -----
+* Teléfono: -----
+* E-mail: -----
+
+# ESTUDIOS REALIZADOS / SECCIÓN 2
+
+ * __*Postgrado*__: Institución 1
+ 
+ * __*Educación Universitaria*__: Institución 2
+ 
+ * __*Educación Diversificada*__: Institución 3
+ 
+ * __*Educación Básica*__: Institución 4
+ 
+ 
+# IDIOMA / SECCIÓN 3
+
+* Idioma 1
+* Idioma 2
+* Idioma 3
+
+
+# EXPERIENCIA LABORAL / SECCIÓN 4
+
+* Trabajo 1
+
+Actividades:
+    
+    * Actividad 1
+    * Actividad 2
+    * Actividad 3
+
+
+* Trabajo 2
+
+Actividades:
+
+    * Actividad 1
+    * Actividad 2
+    * Actividad 3
+
+
+# CURSOS/ SECCIÓN 5
+
+* Curso 1
+* Curso 2:
+
+      * Subdivisión 1
+      * Subdivisión 2
+
+* Curso 3
+      
+
+#   REFERENCIAS PERSONALES / SECCIÓN 6
+
+* Referencia 1, Teléfono: 000000
+* Referencia 2, Teléfono: 000000
+* Referencia 3, Teléfono: 000000
+
+
+
